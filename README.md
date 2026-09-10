@@ -13,11 +13,10 @@ Flutter application for ride booking with live map tracking.
 - User data (name/email) is saved directly in the Firebase auth profile instead of setting up a separate Firestore users collection to keep the assignment focused.
 
 ## Dummy Data
-- Static data is housed in `lib/data/mock/mock_data.dart`.
-- Includes basic models for `DriverModel` and `RideOptionModel`.
+- Static data is used to provide available drivers and ride options without needing a live backend database.
 - For map tracking, instead of hardcoding a straight line from pickup to dropoff, it fetches a real polyline route via Google Maps Directions API. The mock driver then steps through these real coordinates to simulate an actual car moving along the road.
 
 ## Run Instructions
-1. Make sure `android/app/google-services.json` is present.
-2. Ensure you have added the Google Maps API key.
+1. Make sure the Firebase Google Services file is present in the Android project.
+2. Ensure you have added the Google Maps API key in the Android manifest and app code.
 3. Run `flutter run`.
