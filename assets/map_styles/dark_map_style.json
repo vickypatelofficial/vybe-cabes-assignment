@@ -1,0 +1,206 @@
+[
+  {
+    elementType: geometry,
+    stylers: [
+      {
+        color: #181a20
+      }
+    ]
+  },
+  {
+    elementType: labels.text.fill,
+    stylers: [
+      {
+        color: #8ec3b9
+      }
+    ]
+  },
+  {
+    elementType: labels.text.stroke,
+    stylers: [
+      {
+        color: #1a1c23
+      }
+    ]
+  },
+  {
+    featureType: administrative.country,
+    elementType: geometry.stroke,
+    stylers: [
+      {
+        color: #4b6878
+      }
+    ]
+  },
+  {
+    featureType: administrative.land_parcel,
+    elementType: labels.text.fill,
+    stylers: [
+      {
+        color: #647788
+      }
+    ]
+  },
+  {
+    featureType: administrative.province,
+    elementType: geometry.stroke,
+    stylers: [
+      {
+        color: #4b6878
+      }
+    ]
+  },
+  {
+    featureType: landscape.man_made,
+    elementType: geometry.stroke,
+    stylers: [
+      {
+        color: #334e54
+      }
+    ]
+  },
+  {
+    featureType: landscape.natural,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #15191e
+      }
+    ]
+  },
+  {
+    featureType: poi,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #1f242c
+      }
+    ]
+  },
+  {
+    featureType: poi,
+    elementType: labels.text.fill,
+    stylers: [
+      {
+        color: #6f889d
+      }
+    ]
+  },
+  {
+    featureType: poi.park,
+    elementType: geometry.fill,
+    stylers: [
+      {
+        color: #172b23
+      }
+    ]
+  },
+  {
+    featureType: poi.park,
+    elementType: labels.text.fill,
+    stylers: [
+      {
+        color: #44755d
+      }
+    ]
+  },
+  {
+    featureType: road,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #282c37
+      }
+    ]
+  },
+  {
+    featureType: road,
+    elementType: labels.text.fill,
+    stylers: [
+      {
+        color: #98a5b3
+      }
+    ]
+  },
+  {
+    featureType: road.arterial,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #303644
+      }
+    ]
+  },
+  {
+    featureType: road.highway,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #454f63
+      }
+    ]
+  },
+  {
+    featureType: road.highway,
+    elementType: geometry.stroke,
+    stylers: [
+      {
+        color: #252b37
+      }
+    ]
+  },
+  {
+    featureType: road.highway.controlled_access,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #4e5971
+      }
+    ]
+  },
+  {
+    featureType: road.highway.controlled_access,
+    elementType: geometry.stroke,
+    stylers: [
+      {
+        color: #1d232d
+      }
+    ]
+  },
+  {
+    featureType: transit,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #242f3e
+      }
+    ]
+  },
+  {
+    featureType: water,
+    elementType: geometry,
+    stylers: [
+      {
+        color: #0e1626
+      }
+    ]
+  },
+  {
+    featureType: water,
+    elementType: labels.text.fill,
+    stylers: [
+      {
+        color: #515c6d
+      }
+    ]
+  },
+  {
+    featureType: water,
+    elementType: labels.text.stroke,
+    stylers: [
+      {
+        color: #17263c
+      }
+    ]
+  }
+]

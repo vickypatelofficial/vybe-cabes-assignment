@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "773184262986",
+    "project_id": "vycabs-9a282",
+    "storage_bucket": "vycabs-9a282.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773184262986:android:b8bc924428c3e9e96527b3",
+        "android_client_info": {
+          "package_name": "com.vybecabs.rider.vybe_cabs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDefiihP6-tQ0hlqu-mxvnyJ1aE5g2mEsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

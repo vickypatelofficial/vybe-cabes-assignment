@@ -1,0 +1,305 @@
+{
+  popular_locations: [
+    {
+      id: loc_1,
+      name: DLF Cyber Hub,
+      address: DLF Phase 2, Sector 24, Gurugram,
+      city: Gurugram,
+      latitude: 28.4949,
+      longitude: 77.0895,
+      type: work,
+      icon: business
+    },
+    {
+      id: loc_2,
+      name: IGI Airport Terminal 3,
+      address: Indira Gandhi International Airport, New Delhi,
+      city: New Delhi,
+      latitude: 28.5562,
+      longitude: 77.1000,
+      type: airport,
+      icon: flight
+    },
+    {
+      id: loc_3,
+      name: Select CITYWALK Mall,
+      address: A-3, District Centre, Saket, New Delhi,
+      city: New Delhi,
+      latitude: 28.5283,
+      longitude: 77.2189,
+      type: mall,
+      icon: shopping_bag
+    },
+    {
+      id: loc_4,
+      name: Connaught Place Central,
+      address: Inner Circle, Block A, CP, New Delhi,
+      city: New Delhi,
+      latitude: 28.6315,
+      longitude: 77.2167,
+      type: popular,
+      icon: location_city
+    },
+    {
+      id: loc_5,
+      name: Worldmark Aerocity,
+      address: Asset Area 11, Hospitality District, Delhi,
+      city: New Delhi,
+      latitude: 28.5510,
+      longitude: 77.1215,
+      type: cafe,
+      icon: local_cafe
+    },
+    {
+      id: loc_6,
+      name: Sector 62 Tech Zone,
+      address: Institutional Area, Sector 62, Noida,
+      city: Noida,
+      latitude: 28.6258,
+      longitude: 77.3648,
+      type: tech,
+      icon: laptop
+    }
+  ],
+  ride_categories: [
+    {
+      id: vybe_mini,
+      title: Vybe Mini,
+      tagline: Affordable, compact daily commute,
+      capacity: 4,
+      base_fare: 50.0,
+      per_km_rate: 14.0,
+      eta_minutes: 3,
+      icon_type: car_mini,
+      multiplier: 1.0,
+      is_popular: false
+    },
+    {
+      id: vybe_prime,
+      title: Vybe Prime,
+      tagline: Top-rated sedans with extra legroom,
+      capacity: 4,
+      base_fare: 80.0,
+      per_km_rate: 18.5,
+      eta_minutes: 2,
+      icon_type: car_sedan,
+      multiplier: 1.25,
+      is_popular: true
+    },
+    {
+      id: vybe_premier,
+      title: Vybe Premier,
+      tagline: Executive luxury with quiet ride,
+      capacity: 4,
+      base_fare: 120.0,
+      per_km_rate: 26.0,
+      eta_minutes: 4,
+      icon_type: car_luxury,
+      multiplier: 1.6,
+      is_popular: false
+    },
+    {
+      id: vybe_xl,
+      title: Vybe XL,
+      tagline: Spacious 6-seater SUVs for groups,
+      capacity: 6,
+      base_fare: 150.0,
+      per_km_rate: 30.0,
+      eta_minutes: 5,
+      icon_type: car_suv,
+      multiplier: 1.8,
+      is_popular: false
+    },
+    {
+      id: vybe_auto,
+      title: Vybe Auto,
+      tagline: Quick 3-wheeler doorstep pickup,
+      capacity: 3,
+      base_fare: 30.0,
+      per_km_rate: 10.0,
+      eta_minutes: 1,
+      icon_type: auto_rickshaw,
+      multiplier: 0.8,
+      is_popular: false
+    }
+  ],
+  drivers: [
+    {
+      id: drv_101,
+      name: Rajesh Kumar,
+      rating: 4.93,
+      total_trips: 2150,
+      car_model: Hyundai Verna (White),
+      plate_number: DL 01 AB 4321,
+      phone: +91 98765 43210,
+      avatar_url: https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200,
+      gender: male,
+      badge: Top Driver,
+      languages: [English, Hindi]
+    },
+    {
+      id: drv_102,
+      name: Vikramaditya Singh,
+      rating: 4.88,
+      total_trips: 1840,
+      car_model: Honda City (Silver),
+      plate_number: HR 26 CY 9980,
+      phone: +91 98123 45678,
+      avatar_url: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200,
+      badge: Vybe Elite,
+      languages: [English, Hindi, Punjabi]
+    },
+    {
+      id: drv_103,
+      name: Amit Sharma,
+      rating: 4.96,
+      total_trips: 3410,
+      car_model: Toyota Innova Crysta (Black),
+      plate_number: UP 16 DZ 1122,
+      phone: +91 97654 32109,
+      avatar_url: https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200,
+      badge: VIP Star,
+      languages: [English, Hindi]
+    }
+  ],
+  past_rides: [
+    {
+      id: trip_901,
+      date_time: Yesterday, 07:45 PM,
+      pickup_name: DLF Cyber Hub, Gurugram,
+      drop_name: IGI Airport Terminal 3, New Delhi,
+      fare: 340.50,
+      distance_km: 12.4,
+      duration_min: 24,
+      status: completed,
+      ride_type: Vybe Prime,
+      driver_name: Rajesh Kumar,
+      car_model: Hyundai Verna,
+      plate_number: DL 01 AB 4321,
+      rating: 5,
+      payment_method: Vybe Pay Wallet,
+      receipt: {
+        base_fare: 80.0,
+        distance_fare: 229.4,
+        time_fare: 24.0,
+        taxes: 17.1,
+        discount: -10.0
+      }
+    },
+    {
+      id: trip_902,
+      date_time: 06 Sep, 02:15 PM,
+      pickup_name: Select CITYWALK Mall, Saket,
+      drop_name: Connaught Place Central,
+      fare: 265.00,
+      distance_km: 14.1,
+      duration_min: 32,
+      status: completed,
+      ride_type: Vybe Mini,
+      driver_name: Vikramaditya Singh,
+      car_model: Honda City,
+      plate_number: HR 26 CY 9980,
+      rating: 5,
+      payment_method: Credit Card (•••• 8831),
+      receipt: {
+        base_fare: 50.0,
+        distance_fare: 197.4,
+        time_fare: 32.0,
+        taxes: 13.6,
+        discount: -28.0
+      }
+    },
+    {
+      id: trip_903,
+      date_time: 04 Sep, 10:30 AM,
+      pickup_name: Sector 62 Tech Zone, Noida,
+      drop_name: DLF Cyber Hub, Gurugram,
+      fare: 620.00,
+      distance_km: 36.8,
+      duration_min: 58,
+      status: completed,
+      ride_type: Vybe Premier,
+      driver_name: Amit Sharma,
+      car_model: Toyota Innova,
+      plate_number: UP 16 DZ 1122,
+      rating: 5,
+      payment_method: UPI / GPay,
+      receipt: {
+        base_fare: 120.0,
+        distance_fare: 456.8,
+        time_fare: 58.0,
+        taxes: 35.2,
+        discount: -50.0
+      }
+    },
+    {
+      id: trip_904,
+      date_time: 02 Sep, 08:20 AM,
+      pickup_name: Worldmark Aerocity,
+      drop_name: Connaught Place Central,
+      fare: 145.00,
+      distance_km: 8.5,
+      duration_min: 18,
+      status: completed,
+      ride_type: Vybe Auto,
+      driver_name: Mukesh Yadav,
+      car_model: Bajaj Compact 3W,
+      plate_number: DL 1R 8831,
+      rating: 4,
+      payment_method: Cash,
+      receipt: {
+        base_fare: 30.0,
+        distance_fare: 85.0,
+        time_fare: 18.0,
+        taxes: 12.0,
+        discount: 0.0
+      }
+    },
+    {
+      id: trip_905,
+      date_time: 29 Aug, 11:45 PM,
+      pickup_name: Hauz Khas Social,
+      drop_name: Vasant Kunj Pocket B,
+      fare: 210.00,
+      distance_km: 7.2,
+      duration_min: 15,
+      status: cancelled,
+      ride_type: Vybe Prime,
+      driver_name: Suresh Raina,
+      car_model: Maruti Dzire,
+      plate_number: DL 02 CD 4001,
+      rating: 0,
+      payment_method: Refunded to Wallet,
+      receipt: {
+        base_fare: 0.0,
+        distance_fare: 0.0,
+        time_fare: 0.0,
+        taxes: 0.0,
+        discount: 0.0
+      }
+    },
+    {
+      id: trip_906,
+      date_time: 25 Aug, 06:10 PM,
+      pickup_name: Cyber City Phase 3,
+      drop_name: Golf Course Road Sector 54,
+      fare: 195.00,
+      distance_km: 6.8,
+      duration_min: 14,
+      status: completed,
+      ride_type: Vybe Mini,
+      driver_name: Rajesh Kumar,
+      car_model: Hyundai Verna,
+      plate_number: DL 01 AB 4321,
+      rating: 5,
+      payment_method: Vybe Pay Wallet,
+      receipt: {
+        base_fare: 50.0,
+        distance_fare: 115.2,
+        time_fare: 14.0,
+        taxes: 15.8,
+        discount: 0.0
+      }
+    }
+  ]
+}
